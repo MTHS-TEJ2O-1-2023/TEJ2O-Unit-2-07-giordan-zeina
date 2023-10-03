@@ -12,12 +12,12 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 // input
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   number = number + 1
   basic.showNumber(number)
 })
 
-input.onButtonPressed(Button.B, function() {
-  number = number - 1
+input.onButtonPressed(Button.B, function () {
+  number = 0
   basic.showNumber(number)
 })
